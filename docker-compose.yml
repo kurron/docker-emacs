@@ -1,9 +1,9 @@
 idea:
     build: .
     labels:
-        org.kurron.description: "JetBrains CLion C++ IDE"
-        org.kurron.version: "1.2.1"
-    container_name: "clion"
+        org.kurron.description: "Emacs"
+        org.kurron.version: "24.5"
+    container_name: "emacs"
     net: "host"
     volumes:
         - /tmp/.X11-unix:/tmp/.X11-unix
